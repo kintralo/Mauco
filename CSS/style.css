@@ -1,0 +1,84 @@
+body {
+    background-color:blanchedalmond;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.logors {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border: black;
+  background-color: white;
+}
+.product {
+  width: 20rem;
+  height: auto;
+}
+
+.carrusel {
+   display: flex;
+   overflow-x: auto;
+   gap: 5px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qs {
+  margin: 10px;
+  align-items: center;
+}
+
+form {
+  margin: 10px;
+}
+ /* Style the navigation bar */
+ .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color:chartreuse;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  } 
+
+  
