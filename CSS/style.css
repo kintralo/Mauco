@@ -26,17 +26,15 @@ body {
   width: 20rem;
   height: auto;
 }
-
+footer {
+  background-color: black;
+  }
 .carrusel {
    display: flex;
    overflow-x: auto;
    gap: 5px;
 }
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .qs {
   margin: 10px;
@@ -45,7 +43,6 @@ footer {
 
 form {
   margin: 10px;
-
 }
  /* Style the navigation bar */
  .navbar {
