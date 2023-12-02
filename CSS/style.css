@@ -27,8 +27,13 @@ body {
   height: auto;
 }
 footer {
-  background-color: black;
-  }
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
 .carrusel {
    display: flex;
    overflow-x: auto;
