@@ -135,12 +135,14 @@
 </div>
 </div>
 
-<div id="footer-container">
-    <?php include 'footer.html'; ?>
-</div>
-<footer>
-    
-</footer>   
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        // Utilizando jQuery para cargar el contenido del footer
+        $(function(){
+            $("#footer").load("footer.html");
+        });
+    </script>
+ 
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>

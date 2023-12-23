@@ -1,3 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
 body {
     background-color:blanchedalmond;
 }
@@ -22,20 +32,18 @@ body {
   border: black;
   background-color: white;
 }
-.product {
-  width: 20rem;
-  height: auto;
-}
+
 
 
 
 footer {
+  width: 100%;
+  bottom: 0;
   background-color: #222;
   color: #fff;
-  padding: 20px;
-  align-items: center;
   text-align: center;
-  margin-top: 20px;
+  
+
 }
 .carrusel {
    display: flex;
