@@ -39,8 +39,15 @@ img {
 #cuadro {
   border:  5px solid  black;
   border-radius: 10px 100px / 120px;
-
+  background-color: chartreuse;
 }
+#text {
+  text-align: center;
+  font-size: large;
+  vertical-align: middle;
+  margin: 10px;
+}
+
 
 footer {
   width: 100%;
@@ -56,9 +63,12 @@ footer {
    overflow-x: auto;
    gap: 5px;
    margin: 15px;
+ 
 }
 
-
+#carrusels {
+  background-color:rgb(143, 167, 143);
+}
 
 #contactForm {
   margin-left: 200px;
