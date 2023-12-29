@@ -9,12 +9,10 @@ html, body {
 
 
 body {
-    background-color:blanchedalmond;
+    background-color: white
 }
-
-.contenedor {
-    display: flex;
-    justify-content: space-around;
+.container-fluid {
+  background-color:beige;
 }
 
 .column {
@@ -24,17 +22,25 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    
+
 }
 .logors {
   display: grid;
   justify-items: center;
   align-items: center;
-  border: black;
   background-color: white;
 }
 
+img {
+  border-radius: 5%;
+}
 
+#cuadro {
+  border:  5px solid  black;
+  border-radius: 10px 100px / 120px;
 
+}
 
 footer {
   width: 100%;
@@ -53,13 +59,10 @@ footer {
 }
 
 
-.qs {
-  margin: 10px;
-  align-items: center;
-}
 
-form {
-  margin: 10px;
+#contactForm {
+  margin-left: 200px;
+  margin-right: 200px;
 }
  /* Style the navigation bar */
  .navbar {
